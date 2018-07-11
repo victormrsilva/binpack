@@ -1,0 +1,48 @@
+
+Gurobi 8.0.0 (linux64) logging started Tue Jul 10 14:15:58 2018
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 8.0.0 build v8.0.0rc0 (linux64)
+Copyright (c) 2018, Gurobi Optimization, LLC
+
+Read LP format model from file ../../teste.lp
+Reading time = 0.01 seconds
+: 2629 rows, 525 columns, 6195 nonzeros
+Optimize a model with 2629 rows, 525 columns and 6195 nonzeros
+Variable types: 0 continuous, 525 integer (525 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 15.0000000
+Presolve removed 2460 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 169 rows, 525 columns, 1890 nonzeros
+Variable types: 0 continuous, 525 integer (525 binary)
+
+Root relaxation: objective 1.132200e+01, 219 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   11.32200    0   27   15.00000   11.32200  24.5%     -    0s
+H    0     0                      14.0000000   11.32200  19.1%     -    0s
+H    0     0                      13.0000000   11.32200  12.9%     -    0s
+     0     0   11.32200    0   43   13.00000   11.32200  12.9%     -    0s
+     0     0   11.32200    0   31   13.00000   11.32200  12.9%     -    0s
+     0     0   11.32200    0   23   13.00000   11.32200  12.9%     -    0s
+     0     0   11.39589    0   21   13.00000   11.39589  12.3%     -    0s
+H    0     0                      12.0000000   11.39589  5.03%     -    0s
+
+Explored 1 nodes (1185 simplex iterations) in 0.12 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 12 13 14 15 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+
+Wrote result file 'teste.sol'
+
